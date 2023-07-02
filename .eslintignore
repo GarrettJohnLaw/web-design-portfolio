@@ -1,0 +1,10 @@
+node_modules/
+dist/
+dev-dist/
+.gitignore
+.prettierrc.js
+.eslintrc.cjs
+vite.config.js
+env.d.ts
+*.stories.tsx
+*.stories.ts
