@@ -2,16 +2,14 @@ import { RouterProvider, createBrowserRouter, createRoutesFromElements, Route, O
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Home from "./pages/Home";
 import PagesError404 from "./pages/NotFound";
-import "./scss/bootstrap.min.css";
+import "./scss/bootstrap-5.0.2/scss/bootstrap.scss";
 import Navbar from "./components/Navbar";
 
 function Root() {
   return (
-    <div className="d-flex flex-column min-vh-100">
+    <div className="d-flex flex-column min-vh-100 bg-black">
       <Navbar />
-      {/* <div className="bg-body-secondary px-3 flex-grow-1"> */}
       <Outlet />
-      {/* </div> */}
     </div>
   );
 }
