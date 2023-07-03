@@ -11,9 +11,11 @@ import Services from "./pages/Services";
 
 function Root() {
   return (
-    <div className="d-flex flex-column min-vh-100 bg-black">
+    <div className="d-flex flex-column bg-black root-container">
       <Navbar />
-      <Outlet />
+      <div className="p-1">
+        <Outlet />
+      </div>
     </div>
   );
 }

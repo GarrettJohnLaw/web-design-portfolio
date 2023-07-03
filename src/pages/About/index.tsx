@@ -1,10 +1,6 @@
 import { ReactElement, FC } from "react";
 
 const Home: FC = (): ReactElement => {
-  return (
-    <div className="m-5">
-      <h1 className="huge-font m-5 text-white">About</h1>
-    </div>
-  );
+  return <h1 className="huge-font text-white">About</h1>;
 };
 export default Home;
