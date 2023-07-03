@@ -1,12 +1,9 @@
 import { ReactElement, FC } from "react";
-import Nav from "react-bootstrap/Nav";
-import { Link } from "react-router-dom";
-import Button from "react-bootstrap/Button";
 
 const Home: FC = (): ReactElement => {
   return (
-    <>
-      <h1 className="huge-font text-white">Services</h1>;
+    <div className="p-4">
+      <h1 className="huge-font text-white text-center display-4">Services</h1>;
       <div className="row justify-content-between text-center py-md-5 text-white">
         <div className="col-12 col-md-4">
           <div className="py-5 py-md-0">
@@ -51,7 +48,7 @@ const Home: FC = (): ReactElement => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 export default Home;

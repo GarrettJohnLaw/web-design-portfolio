@@ -2,8 +2,8 @@ import { ReactElement, FC } from "react";
 
 const Home: FC = (): ReactElement => {
   return (
-    <div className="text-white">
-      <h1 className="huge-font text-white">About</h1>
+    <div className="text-white p-4">
+      <h1 className="text-white text-center display-4">About</h1>
       <h2>About Garrett John Law Design</h2>
       <p>
         Welcome to Garrett John Law Design, where creativity meets technology! I'm Garrett, a former classical musician

@@ -3,8 +3,8 @@ import Button from "react-bootstrap/Button";
 
 const Home: FC = (): ReactElement => {
   return (
-    <div>
-      <h1 className="huge-font text-white">Portfolio</h1>
+    <div className="p-4">
+      <h1 className="text-white text-center display-4">Portfolio</h1>
       <div className="row py-4">
         <div className="col-md-4 gallery-item mb-md-0 d-flex flex-column h-100">
           <a href="https://www.patrickpopeorganist.com/" target="_blank">
