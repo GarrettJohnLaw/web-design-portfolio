@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Services from "./pages/Services";
+import Footer from "./components/Footer";
 
 function Root() {
   return (
@@ -16,6 +17,7 @@ function Root() {
       <div className="p-1">
         <Outlet />
       </div>
+      <Footer />
     </div>
   );
 }
