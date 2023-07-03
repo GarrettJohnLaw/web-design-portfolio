@@ -3,7 +3,7 @@ import "react-gallery-carousel/dist/index.css";
 
 const CarouselElement = () => {
   const images = [0, 1, 2, 3].map((number) => ({
-    src: `/src/images/HomeCarousel/${number}.jpeg`,
+    src: `/images/HomeCarousel/${number}.jpeg`,
   }));
 
   const leftArrow = <i className="bi bi-arrow-left ms-2" />;
