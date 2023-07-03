@@ -3,6 +3,7 @@ import { ReactElement, FC } from "react";
 // import HeroImage from "../components/HeroImage";
 
 const Home: FC = (): ReactElement => {
+  return <div></div>;
   // return <HeroImage />;
   // return <Carousel />;
 };
