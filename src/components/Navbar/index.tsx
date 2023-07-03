@@ -42,7 +42,7 @@ function NavbarElement() {
             >
               Portfolio
             </Nav.Link>
-            <Button as={Link} to="/contact" className="btn btn-secondary ms-3">
+            <Button href="/contact" className="btn btn-secondary ms-3">
               Contact
             </Button>
           </Nav>
