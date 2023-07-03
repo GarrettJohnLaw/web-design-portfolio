@@ -39,6 +39,7 @@
     "@vitejs/plugin-react-swc": "^3.0.0",
     "@vitest/ui": "latest",
     "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.1",
     "jsdom": "latest",
     "prettier": "^2.8.8",
     "prop-types": "^15.8.1",
