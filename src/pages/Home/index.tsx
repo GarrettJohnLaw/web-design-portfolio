@@ -1,6 +1,7 @@
 import { ReactElement, FC } from "react";
 import "./index.css";
-import Button from "react-bootstrap/Button";
+import Nav from "react-bootstrap/Nav";
+import { Link } from "react-router-dom";
 
 const Home: FC = (): ReactElement => {
   return (
@@ -13,7 +14,9 @@ const Home: FC = (): ReactElement => {
           <div className="col-12 col-md-5">
             <h1 className="display-3">Hi, I'm Garrett.</h1>
             <p className="large mb-4">I build websites for small businesses, nonprofits, and creatives.</p>
-            <Button href="/about">Learn More</Button>
+            <Nav.Link as={Link} to="/about" className="btn btn-secondary ms-3">
+              Learn More
+            </Nav.Link>
           </div>
         </div>
       </div>
