@@ -1,8 +1,8 @@
 function Footer() {
   return (
-    <div className="text-white">
+    <>
       <div className="row align-items-center py-4">
-        <div className="col-12 col-lg-8 navbar-expand text-center weight-500 vw-100">
+        <div className="col-12 col-lg-8 navbar-expand text-center weight-500 w-100">
           <div className="navbar-nav d-block d-lg-flex justify-content-center">
             <div className="nav-item">
               <a className="nav-link text-white" href="/contact">
@@ -31,7 +31,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="col-12 d-lg-none text-center">
+        <div className="col-12 d-lg-none text-center p-0">
           <a className="transparent-invert-link mx-1" href="https://instagram.com/garrettjohnlaw_">
             <i className="bi bi-instagram"></i>
           </a>
@@ -57,7 +57,7 @@ function Footer() {
           </a>
         </div>
       </div> */}
-    </div>
+    </>
   );
 }
 export default Footer;
