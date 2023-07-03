@@ -46,6 +46,13 @@
     "vite": "^4.3.9",
     "vitest": "^0.32.1"
   },
+  "overrides": {
+    "eslint-config-airbnb": {
+      "resolutions": {
+        "eslint": "--legacy-peer-deps"
+      }
+    }
+  },
   "main": "index.js",
   "author": "",
   "license": "ISC",
