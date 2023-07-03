@@ -8,7 +8,7 @@ function NavbarElement() {
     <Navbar bg="primary" expand="md" className="w-100">
       <Container>
         <Navbar.Brand as={Link} to="/" className="text-white">
-          <Nav.Link as={Link} to="/" className="text-secondary">
+          <Nav.Link as={Link} to="/" className="text-white">
             Garrett John Law Design
           </Nav.Link>
         </Navbar.Brand>
