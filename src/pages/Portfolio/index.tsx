@@ -30,6 +30,8 @@ const Home: FC = (): ReactElement => {
             Garrett John Law
           </Button>
         </div>
+      </div>
+      <div className="row py-4">
         <div className="col-md-4 gallery-item mb-md-0 d-flex flex-column h-100">
           <a href="https://holytrinity.squarespace.com/" target="_blank">
             <img className="w-100" src="/images/Portfolio/holy-trinity.png" />
