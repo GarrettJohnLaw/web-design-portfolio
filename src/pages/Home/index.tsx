@@ -1,6 +1,6 @@
 import { ReactElement, FC } from "react";
 import "./index.css";
-import Button from "react-bootstrap/button";
+import Button from "react-bootstrap/Button";
 
 const Home: FC = (): ReactElement => {
   return (

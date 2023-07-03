@@ -1,5 +1,5 @@
 import { ReactElement, FC } from "react";
-import Button from "react-bootstrap/button";
+import Button from "react-bootstrap/Button";
 
 const Home: FC = (): ReactElement => {
   return (
