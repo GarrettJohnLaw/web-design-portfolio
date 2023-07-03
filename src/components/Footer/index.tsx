@@ -1,33 +1,31 @@
-import { facebook } from "bootstrap-icons";
-
 function Footer() {
   return (
-    <>
+    <div className="text-white">
       <div className="row align-items-center py-4">
-        <div className="col-12 col-lg-8 navbar-expand text-center weight-500">
+        <div className="col-12 col-lg-8 navbar-expand text-center weight-500 vw-100">
           <div className="navbar-nav d-block d-lg-flex justify-content-center">
             <div className="nav-item">
-              <a className="nav-link text-dark" href="/contact">
+              <a className="nav-link text-white" href="/contact">
                 Contact
               </a>
             </div>
             <div className="nav-item">
-              <a className="nav-link text-dark" href="/portfolio">
+              <a className="nav-link text-white" href="/portfolio">
                 Portfolio
               </a>
             </div>
             <div className="nav-item">
-              <a className="nav-link text-dark" href="/about">
+              <a className="nav-link text-white" href="/about">
                 About
               </a>
             </div>
             <div className="nav-item">
-              <a className="nav-link text-dark" href="/services">
+              <a className="nav-link text-white" href="/services">
                 Services
               </a>
             </div>
             <div className="nav-item">
-              <a className="nav-link text-dark" href="/">
+              <a className="nav-link text-white" href="/">
                 Home
               </a>
             </div>
@@ -59,7 +57,7 @@ function Footer() {
           </a>
         </div>
       </div> */}
-    </>
+    </div>
   );
 }
 export default Footer;

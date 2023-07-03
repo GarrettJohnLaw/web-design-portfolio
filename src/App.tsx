@@ -12,9 +12,9 @@ import Footer from "./components/Footer";
 
 function Root() {
   return (
-    <div className="d-flex flex-column bg-black root-container">
+    <div className="d-flex flex-column min-vh-100 bg-black root-container">
       <Navbar />
-      <div className="p-1">
+      <div className="p-1 flex-grow-1">
         <Outlet />
       </div>
       <Footer />
