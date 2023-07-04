@@ -14,7 +14,7 @@ const Home: FC = (): ReactElement => {
           <div className="col-12 col-md-5">
             <h1 className="display-3">Hi, I'm Garrett.</h1>
             <p className="large mb-4">I build websites for small businesses, nonprofits, and creatives.</p>
-            <Nav.Link as={Link} to="/about" className="btn btn-secondary ms-3">
+            <Nav.Link as={Link} to="/about" className="btn btn-secondary ms-3 text-white">
               Learn More
             </Nav.Link>
           </div>
