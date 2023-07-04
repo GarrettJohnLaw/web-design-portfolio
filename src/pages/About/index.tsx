@@ -31,7 +31,7 @@ const Home: FC = (): ReactElement => {
           Learn More About Me
         </a> */}
         <div className=" text-white d-flex flex-column align-items-center">
-          <div className="row p-5">
+          <div className="row py-5">
             <div className="col-12 col-md-6 mb-4 mb-md-0">
               <h3 className="text-secondary">Inspired by Clarity</h3>
               <p>
@@ -56,8 +56,8 @@ const Home: FC = (): ReactElement => {
             Checkout My Portfolio
           </a>
         </div>
-        <div className="p-4 text-white d-flex flex-column align-items-center">
-          <div className="row p-5">
+        <div className="p-1 text-white d-flex flex-column align-items-center">
+          <div className="row py-5">
             <div className="col-12 col-md-6 mb-4 mb-md-0">
               <h3 className="text-warning">I Use Modern Technology</h3>
               <p>
@@ -80,8 +80,8 @@ const Home: FC = (): ReactElement => {
             See My Services
           </a>
         </div>
-        <div className="p-4 text-white d-flex flex-column align-items-center">
-          <div className="row p-5">
+        <div className="p-1 text-white d-flex flex-column align-items-center">
+          <div className="row py-5">
             <div className="col-12 col-md-6 mb-4 mb-md-0">
               <h3 className="text-danger">Beyond Web Design</h3>
               <p>
