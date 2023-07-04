@@ -27,9 +27,9 @@ const Home: FC = (): ReactElement => {
             </p>
           </div>
         </div>
-        <a href="https://garrettjohnlaw.com" className="btn btn-secondary col-md-4 btn-lg" target="_blank">
-          Visit My Personal Website
-        </a>
+        {/* <a href="https://garrettjohnlaw.com" className="btn btn-secondary col-md-4 btn-lg" target="_blank">
+          Learn More About Me
+        </a> */}
         <div className="p-4 text-white d-flex flex-column align-items-center">
           <div className="row py-5">
             <div className="col-12 col-md-6 mb-4 mb-md-0">
@@ -81,7 +81,7 @@ const Home: FC = (): ReactElement => {
             </div>
           </div>
           <a href="https://squarespace.com/website-design" className="btn col-md-4 btn-lg btn-warning" target="_blank">
-            Learn About Squarespace
+            See My Services
           </a>
         </div>
         <div className="p-4 text-white d-flex flex-column align-items-center">
@@ -89,20 +89,23 @@ const Home: FC = (): ReactElement => {
             <div className="col-12 col-md-6 mb-4 mb-md-0">
               <h3 className="text-danger">Beyond Web Design</h3>
               <p>
-                In addition to my passion for web design, I am a full-fledged software engineer at Re:Build
-                Manufacturing, where I create scalable solutions to bring manufacturing back to the United States.
-                Outside of work, I find joy in my role as an organist and choir director at Holy Trinity Episcopal
-                Church in Covina, CA. I am also an avid composer and enjoy spending time with my adorable cat, Claudia.
-                Recently, I've had the joy of getting engaged to my sweetheart, Danielle Dinstman, who is an artist
-                herself. You can explore her artistic world at danielledinstman.com.
+                In addition to my passion for web design, I am a software engineer at Re:Build Manufacturing, where I'm
+                creating solutions to revive manufacturing in the United States. I also enjoy petting my cat Claudia and
+                going on sunrise hikes. Recently, I've had the joy of getting engaged to my sweetheart, Danielle
+                Dinstman, who is an artist herself. You can explore her art at
+                <a href="https://danielledinstman.com" className="text-danger" target="_blank">
+                  {" "}
+                  danielledinstman.com
+                </a>
+                .
               </p>
             </div>
             <div className="col-12 col-md-6">
               <h3 className="text-danger">Let's Create Something Extraordinary</h3>
               <p>
-                If you're ready to take your online presence to new heights, let's collaborate! Together, we'll bring
-                your vision to life and create a website that leaves a lasting impression. Contact me today to get
-                started on your exciting web design journey.
+                If you're ready to take your online presence to new heights, let's collaborate. Together, we'll bring
+                your vision to life and create a website that leaves a lasting impression. Let's get your website
+                started today!
               </p>
             </div>
           </div>

@@ -10,11 +10,12 @@ const Home: FC = (): ReactElement => {
             <i className="bi bi-star"></i>
             <h3>Portfolio Package</h3>
             <p className="mb-3 text-white">3-5 pages</p>
+            <p className="mb-3 text-white">5 custom integrations</p>
             <p className="mb-3 text-white">A refined website experience</p>
             <p className="mb-3 text-white">A responsive and mobile-first design</p>
-            <p className="mb-3 text-white">Custom integrations</p>
+            <p className="mb-3 text-white">Submit form end email collection</p>
             <p className="mb-3 text-white">Embedded content</p>
-            <div className="price-small mb-3">$499</div>
+            <div className="price-small mb-3">$499+</div>
             <a href="/contact" className="btn btn-warning text-dark">
               Get Started
             </a>
@@ -25,11 +26,13 @@ const Home: FC = (): ReactElement => {
             <i className="bi bi-star-fill"></i>
             <h3>Small Business Package</h3>
             <p className="mb-3">6-8 pages</p>
+            <p className="mb-3 text-white">10 custom integrations</p>
             <p className="mb-3">All of Portfolio Package plus:</p>
-            <p>A storefront is included</p>
-            <p></p>
-            <p className="mb-3"></p>
-            <div className="price-small mb-3">$799</div>
+            <p className="mb-3 text-white">A storefront up to 25 products</p>
+            <p className="mb-3 text-white">Schedule appointments and reservations</p>
+            <p className="mb-3 text-white">Search Engine Optimization</p>
+            <p className="mb-3 text-white">Opportunity for blog package</p>
+            <div className="price-small mb-3">$999+</div>
             <a href="/contact" className="btn btn-light text-dark">
               Get Started
             </a>
@@ -49,8 +52,12 @@ const Home: FC = (): ReactElement => {
             </svg>
             <h3>Ecommerce Package</h3>
             <p className="mb-3">8-12 Pages</p>
+            <p className="mb-3 text-white">A storefront up to 50 products</p>
             <p className="mb-3">All of Nonprofit Package plus:</p>
-            <div className="price-small mb-3">$1499</div>
+            <p className="mb-3">DoorDash, Uber Eats, Grubhub integrations</p>
+            <p className="mb-3">All of Nonprofit Package plus:</p>
+            <p className="mb-3">All of Nonprofit Package plus:</p>
+            <div className="price-small mb-3">$1499+</div>
             <a href="/contact" className="btn btn-secondary text-white">
               Get Started
             </a>
