@@ -7,8 +7,8 @@ function Footer() {
       <div className="row align-items-center py-4">
         <div className="col-12 col-lg-8 navbar-expand text-center weight-500 w-100">
           <div className="navbar-nav d-block d-lg-flex justify-content-center">
-            <Nav.Link as={Link} className="nav-link text-white" to="/contact">
-              Contact
+            <Nav.Link as={Link} className="nav-link text-white" to="/get-started">
+              Get Started
             </Nav.Link>
             <Nav.Link as={Link} className="nav-link text-white" to="/portfolio">
               Portfolio

@@ -15,15 +15,6 @@ function NavbarElement() {
           <Nav className="bg-primary navbar-dark">
             <Nav.Link
               as={Link}
-              to="/services"
-              className={`d-flex align-items-center justify-content-center text-white ${
-                location.pathname === "/services" ? "active" : ""
-              }`}
-            >
-              Services
-            </Nav.Link>
-            <Nav.Link
-              as={Link}
               to="/about"
               className={`d-flex align-items-center justify-content-center text-white ${
                 location.pathname === "/about" ? "active" : ""
@@ -40,8 +31,17 @@ function NavbarElement() {
             >
               Portfolio
             </Nav.Link>
-            <Nav.Link as={Link} to="/contact" className="btn btn-secondary ms-3 text-white">
-              Contact
+            <Nav.Link
+              as={Link}
+              to="/services"
+              className={`d-flex align-items-center justify-content-center text-white ${
+                location.pathname === "/services" ? "active" : ""
+              }`}
+            >
+              Services
+            </Nav.Link>
+            <Nav.Link as={Link} to="/get-started" className="btn btn-secondary ms-3 text-white">
+              Get Started
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

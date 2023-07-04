@@ -105,7 +105,11 @@ const Home: FC = (): ReactElement => {
               </p>
             </div>
           </div>
-          <a href="https://garrettjohnlawdesign.com/contact" className="btn col-md-4 btn-lg btn-danger" target="_blank">
+          <a
+            href="https://garrettjohnlawdesign.com/get-started"
+            className="btn col-md-4 btn-lg btn-danger"
+            target="_blank"
+          >
             Get Started
           </a>
         </div>

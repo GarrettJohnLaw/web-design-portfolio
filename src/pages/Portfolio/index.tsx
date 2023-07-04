@@ -1,5 +1,6 @@
 import { ReactElement, FC } from "react";
 import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 
 const Home: FC = (): ReactElement => {
   return (
@@ -39,6 +40,11 @@ const Home: FC = (): ReactElement => {
           </Button>
         </div>
       </div>
+      <Link to="/get-started">
+        <button type="button" className="btn btn-outline-primary">
+          Back home
+        </button>
+      </Link>
     </div>
   );
 };

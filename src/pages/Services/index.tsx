@@ -16,7 +16,7 @@ const Home: FC = (): ReactElement => {
             <p className="mb-3 text-white">Submit form end email collection</p>
             <p className="mb-3 text-white">Embedded content</p>
             <div className="price-small mb-3">$499+</div>
-            <a href="/contact" className="btn btn-warning text-dark">
+            <a href="/get-started" className="btn btn-warning text-dark">
               Get Started
             </a>
           </div>
@@ -33,7 +33,7 @@ const Home: FC = (): ReactElement => {
             <p className="mb-3 text-white">Search Engine Optimization</p>
             <p className="mb-3 text-white">Opportunity for blog package</p>
             <div className="price-small mb-3">$999+</div>
-            <a href="/contact" className="btn btn-light text-dark">
+            <a href="/get-started" className="btn btn-light text-dark">
               Get Started
             </a>
           </div>
@@ -58,7 +58,7 @@ const Home: FC = (): ReactElement => {
             <p className="mb-3">All of Nonprofit Package plus:</p>
             <p className="mb-3">All of Nonprofit Package plus:</p>
             <div className="price-small mb-3">$1499+</div>
-            <a href="/contact" className="btn btn-secondary text-white">
+            <a href="/get-started" className="btn btn-secondary text-white">
               Get Started
             </a>
           </div>

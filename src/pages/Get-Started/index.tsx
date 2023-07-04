@@ -1,10 +1,9 @@
-import { ReactElement, FC, useRef } from "react";
-import emailjs from "@emailjs/browser";
+import { ReactElement, FC } from "react";
 
-const Home: FC = (): ReactElement => {
+const GetStarted: FC = (): ReactElement => {
   return (
     <div className="row justify-content-center text-center p-4 text-white">
-      <h1 className="mb-5 display-4">Contact</h1>
+      <h1 className="mb-5 display-4">Get Started</h1>
       <div className="col-12 col-4 col-lg-4">
         <h2>Send a message</h2>
         <form action="https://formspree.io/f/xbjvrvdb" method="POST" className="mb-3 d-flex flex-column gap-3">
@@ -38,4 +37,4 @@ const Home: FC = (): ReactElement => {
     </div>
   );
 };
-export default Home;
+export default GetStarted;

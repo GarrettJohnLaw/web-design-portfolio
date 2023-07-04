@@ -5,7 +5,7 @@ import PagesError404 from "./pages/Notfound";
 import "./scss/bootstrap-5.0.2/scss/bootstrap.scss";
 import Navbar from "./components/Navbar";
 import About from "./pages/About";
-import Contact from "./pages/Contact";
+import GetStarted from "./pages/Get-Started";
 import Portfolio from "./pages/Portfolio";
 import Services from "./pages/Services";
 import Footer from "./components/Footer";
@@ -27,7 +27,7 @@ const router = createBrowserRouter(
     <Route path="/" element={<Root />}>
       <Route index element={<Home />} />
       <Route path="/about" element={<About />}></Route>
-      <Route path="/contact" element={<Contact />}></Route>
+      <Route path="/get-started" element={<GetStarted />}></Route>
       <Route path="/portfolio" element={<Portfolio />}></Route>
       <Route path="/services" element={<Services />}></Route>
       <Route path="*" element={<PagesError404 />} />
