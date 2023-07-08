@@ -9,6 +9,7 @@ import GetStarted from "./pages/Get-Started";
 import Portfolio from "./pages/Portfolio";
 import Services from "./pages/Services";
 import Footer from "./components/Footer";
+import { Analytics } from "@vercel/analytics/react";
 
 function Root() {
   return (
@@ -18,6 +19,7 @@ function Root() {
         <Outlet />
       </div>
       <Footer />
+      <Analytics />
     </div>
   );
 }
