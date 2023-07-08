@@ -4,7 +4,7 @@ import PortfolioCardGroup, { PortfolioCardGroupProps } from "../../components/Po
 import { PortfolioCardProps } from "../../components/PortfolioCard";
 
 const Home: FC = (): ReactElement => {
-  const portfolio: PortfolioCardProps[] = [
+  let portfolio: PortfolioCardProps[] = [
     {
       imgSrc: "images/Portfolio/stephenie-santilli.png",
       href: "https://www.stepheniesantilli.com/",
@@ -30,7 +30,22 @@ const Home: FC = (): ReactElement => {
       href: "https://qinyingmusic.squarespace.com/",
       buttonText: "Dr. QinYing Tan (Coming Soon)",
     },
+    {
+      imgSrc: "images/Portfolio/classically-minded.png",
+      href: "https://classicallyminded.com/",
+      buttonText: "Classically Minded",
+    },
   ];
+
+  function shuffleArray(array: any[]) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  }
+
+  portfolio = shuffleArray(portfolio);
 
   return (
     <div className="p-4 d-flex flex-column gap-3">
