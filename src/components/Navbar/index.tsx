@@ -5,7 +5,7 @@ function NavbarElement() {
   const location = useLocation();
 
   return (
-    <Navbar expand="md" className="w-100 navbar-dark" bg="primary" collapseOnSelect>
+    <Navbar expand="md" className="navbar-dark" bg="primary" collapseOnSelect>
       <Container>
         <Navbar.Brand as={Link} to="/" className="text-white">
           Garrett John Law Design
