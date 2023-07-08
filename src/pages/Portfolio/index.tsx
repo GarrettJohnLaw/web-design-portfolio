@@ -25,7 +25,13 @@ const Home: FC = (): ReactElement => {
       href: "https://www.garrettjohnlaw.com/",
       buttonText: "Garrett John Law",
     },
+    {
+      imgSrc: "images/Portfolio/qinying-tan.png",
+      href: "https://qinyingmusic.squarespace.com/",
+      buttonText: "Dr. QinYing Tan (Coming Soon)",
+    },
   ];
+
   return (
     <div className="p-4 d-flex flex-column gap-3">
       <h1 className="text-white text-center display-4">Portfolio</h1>
