@@ -1,6 +1,6 @@
 import { ReactElement, FC } from "react";
 import { Link } from "react-router-dom";
-import PortfolioCardGroup, { PortfolioCardGroupProps } from "../../components/PortfolioCardGroup";
+import PortfolioCardGroup from "../../components/PortfolioCardGroup";
 import { PortfolioCardProps } from "../../components/PortfolioCard";
 
 const Home: FC = (): ReactElement => {
