@@ -5,7 +5,7 @@ import PagesError404 from "./pages/Notfound";
 import "./scss/bootstrap-5.0.2/scss/bootstrap.scss";
 import Navbar from "./components/Navbar";
 import About from "./pages/About";
-import GetStarted from "./pages/Get-Started";
+import GetStarted from "./pages/GetStarted";
 import Portfolio from "./pages/Portfolio";
 import Services from "./pages/Services";
 import Footer from "./components/Footer";

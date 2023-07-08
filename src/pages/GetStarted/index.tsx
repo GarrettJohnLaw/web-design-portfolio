@@ -23,7 +23,7 @@ const GetStarted: FC = (): ReactElement => {
               rows={4}
             ></textarea>
           </div>
-          <button className="btn btn-lg btn-primary btn-block" type="submit">
+          <button className="btn btn-lg btn-secondary btn-block text-white" type="submit">
             Send
           </button>
         </form>
@@ -31,7 +31,7 @@ const GetStarted: FC = (): ReactElement => {
       <div className="text-white col-12 col-md-4 col-lg-4 d-flex flex-column justify-content-center">
         <h2 className="mb-5">Book a phone call</h2>
         <a href="https://calendly.com/garrettjohnlaw/30min" target="_blank">
-          <button className="btn btn-lg btn-primary btn-block">Book Now</button>
+          <button className="btn btn-lg btn-secondary btn-block text-white">Book Now</button>
         </a>
       </div>
     </div>
