@@ -14,6 +14,7 @@ const Home = ({ portfolioItems }: PortfolioCardGroupProps): ReactElement => {
         imgSrc={portfolioCard.imgSrc}
         href={portfolioCard.href}
         buttonText={portfolioCard.buttonText}
+        alt={portfolioCard.alt}
       ></PortfolioCard>
     );
   });

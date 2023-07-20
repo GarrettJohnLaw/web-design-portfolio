@@ -9,31 +9,37 @@ const Home: FC = (): ReactElement => {
       imgSrc: "images/Portfolio/stephenie-santilli-min.png",
       href: "https://www.stepheniesantilli.com/",
       buttonText: "Stephenie Santilli (Coming Soon)",
+      alt: "Stephenie Santilli",
     },
     {
       imgSrc: "images/Portfolio/patrick-pope-min.png",
       href: "https://www.patrickpopeorganist.com/",
       buttonText: "Patrick Pope (Coming Soon)",
+      alt: "Patrick Pope",
     },
     {
       imgSrc: "images/Portfolio/holy-trinity-min.png",
       href: "https://holytrinity.squarespace.com/",
       buttonText: "Holy Trinity Episcopal Church",
+      alt: "Holy Trinity Episcopal Church",
     },
     {
       imgSrc: "images/Portfolio/garrett-law-min.png",
       href: "https://www.garrettjohnlaw.com/",
       buttonText: "Garrett John Law",
+      alt: "Garrett John Law",
     },
     {
       imgSrc: "images/Portfolio/qinying-tan-min.png",
       href: "https://qinyingmusic.squarespace.com/",
       buttonText: "Dr. QinYing Tan (Coming Soon)",
+      alt: "Dr. QinYing Tan",
     },
     {
       imgSrc: "images/Portfolio/classically-minded-min.png",
       href: "https://classicallyminded.com/",
       buttonText: "Classically Minded",
+      alt: "Classically Mindeds",
     },
   ];
 
