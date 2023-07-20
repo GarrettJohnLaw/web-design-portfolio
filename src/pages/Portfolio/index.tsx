@@ -6,32 +6,32 @@ import { PortfolioCardProps } from "../../components/PortfolioCard";
 const Home: FC = (): ReactElement => {
   let portfolio: PortfolioCardProps[] = [
     {
-      imgSrc: "images/Portfolio/stephenie-santilli.png",
+      imgSrc: "images/Portfolio/stephenie-santilli-min.png",
       href: "https://www.stepheniesantilli.com/",
       buttonText: "Stephenie Santilli (Coming Soon)",
     },
     {
-      imgSrc: "images/Portfolio/patrick-pope.png",
+      imgSrc: "images/Portfolio/patrick-pope-min.png",
       href: "https://www.patrickpopeorganist.com/",
       buttonText: "Patrick Pope (Coming Soon)",
     },
     {
-      imgSrc: "images/Portfolio/holy-trinity.png",
+      imgSrc: "images/Portfolio/holy-trinity-min.png",
       href: "https://holytrinity.squarespace.com/",
       buttonText: "Holy Trinity Episcopal Church",
     },
     {
-      imgSrc: "images/Portfolio/garrett-law.png",
+      imgSrc: "images/Portfolio/garrett-law-min.png",
       href: "https://www.garrettjohnlaw.com/",
       buttonText: "Garrett John Law",
     },
     {
-      imgSrc: "images/Portfolio/qinying-tan.png",
+      imgSrc: "images/Portfolio/qinying-tan-min.png",
       href: "https://qinyingmusic.squarespace.com/",
       buttonText: "Dr. QinYing Tan (Coming Soon)",
     },
     {
-      imgSrc: "images/Portfolio/classically-minded.png",
+      imgSrc: "images/Portfolio/classically-minded-min.png",
       href: "https://classicallyminded.com/",
       buttonText: "Classically Minded",
     },
