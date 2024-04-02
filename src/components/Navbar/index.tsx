@@ -8,7 +8,7 @@ function NavbarElement() {
     <Navbar expand="md" className="navbar-dark" bg="primary" collapseOnSelect>
       <Container>
         <Navbar.Brand as={Link} to="/" className="text-white">
-          Garrett John Law Design
+          Garrett John Law, Software Engineer
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
