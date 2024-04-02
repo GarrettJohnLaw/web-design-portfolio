@@ -31,15 +31,6 @@ function NavbarElement() {
             >
               Portfolio
             </Nav.Link>
-            <Nav.Link
-              as={Link}
-              to="/services"
-              className={`d-flex align-items-center justify-content-center text-white ${
-                location.pathname === "/services" ? "active" : ""
-              }`}
-            >
-              Services
-            </Nav.Link>
             <Nav.Link as={Link} to="/get-started" className="btn btn-secondary ms-3 text-white">
               Get Started
             </Nav.Link>
