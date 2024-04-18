@@ -7,8 +7,8 @@ function Footer() {
       <div className="row align-items-center py-4">
         <div className="col-12 col-lg-8 navbar-expand text-center weight-500 w-100">
           <div className="navbar-nav d-block d-lg-flex justify-content-center">
-            <Nav.Link as={Link} className="nav-link text-white" to="/get-started">
-              Get Started
+            <Nav.Link as={Link} className="nav-link text-white" to="https://www.linkedin.com/in/garrettjohnlaw/">
+              LinkedIn
             </Nav.Link>
             <Nav.Link as={Link} className="nav-link text-white" to="/portfolio">
               Portfolio
@@ -16,9 +16,9 @@ function Footer() {
             <Nav.Link as={Link} className="nav-link text-white" to="/about">
               About
             </Nav.Link>
-            <Nav.Link as={Link} className="nav-link text-white" to="/services">
+            {/* <Nav.Link as={Link} className="nav-link text-white" to="/services">
               Services
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link as={Link} className="nav-link text-white" to="/">
               Home
             </Nav.Link>
