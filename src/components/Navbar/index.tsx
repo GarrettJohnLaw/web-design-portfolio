@@ -31,8 +31,12 @@ function NavbarElement() {
             >
               Portfolio
             </Nav.Link>
-            <Nav.Link as={Link} to="/get-started" className="btn btn-secondary ms-3 text-white">
-              Get Started
+            <Nav.Link
+              as={Link}
+              to="https://www.linkedin.com/in/garrettjohnlaw/"
+              className="btn btn-secondary ms-3 text-white"
+            >
+              Connect On LinkedIn
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

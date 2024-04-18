@@ -11,13 +11,4 @@ export default defineConfig({
     host: "localhost",
     port: 3009,
   },
-  // test: {
-  //   coverage: {
-  //     provider: "v8",
-  //   },
-  //   globals: true,
-  //   environment: "jsdom",
-  //   setupFiles: ["./src/test/setup.ts"],
-  //   css: true,
-  // },
 });
