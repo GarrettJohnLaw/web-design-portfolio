@@ -24,9 +24,9 @@ function NavbarElement() {
             </Nav.Link>
             <Nav.Link
               as={Link}
-              to="/portfolio"
+              to="https://design.garrettjohnlaw.com/portfolio"
               className={`d-flex align-items-center justify-content-center text-white ${
-                location.pathname === "/portfolio" ? "active" : ""
+                location.pathname === "portfolio" ? "active" : ""
               }`}
             >
               Portfolio
