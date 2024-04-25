@@ -16,9 +16,9 @@ function Footer() {
             <Nav.Link as={Link} className="nav-link text-white" to="/about">
               About
             </Nav.Link>
-            {/* <Nav.Link as={Link} className="nav-link text-white" to="/services">
-              Services
-            </Nav.Link> */}
+            <Nav.Link as={Link} className="nav-link text-white" to="/https://garrettjohnlaw.com/blog/software">
+              Blog
+            </Nav.Link>
             <Nav.Link as={Link} className="nav-link text-white" to="/">
               Home
             </Nav.Link>
