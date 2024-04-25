@@ -10,7 +10,7 @@ const Home: FC = (): ReactElement => {
         <div className="row justify-content-between align-items-center py-5">
           <div className="col-12 col-md-6 pl-md-0 mb-4 mb-md-0">
             <div style={{ maxHeight: "100vh", overflow: "hidden" }}>
-              <img className="img-fluid" src="/images/Garrett-03.jpg" alt="A portrait of Garrett wearing a blue suit" />
+              <img className="img-fluid" src="/images/Garrett-17.jpg" alt="A portrait of Garrett wearing a blue suit" />
             </div>
           </div>
           <div className="col-12 col-md-5">
