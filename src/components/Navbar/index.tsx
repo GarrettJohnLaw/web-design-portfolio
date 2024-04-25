@@ -24,6 +24,15 @@ function NavbarElement() {
             </Nav.Link>
             <Nav.Link
               as={Link}
+              to="https://garrettjohnlaw.com/blog/software"
+              className={`d-flex align-items-center justify-content-center text-white ${
+                location.pathname === "/about" ? "active" : ""
+              }`}
+            >
+              Blog
+            </Nav.Link>
+            <Nav.Link
+              as={Link}
               to="https://design.garrettjohnlaw.com/portfolio"
               className={`d-flex align-items-center justify-content-center text-white ${
                 location.pathname === "portfolio" ? "active" : ""
