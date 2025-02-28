@@ -56,7 +56,7 @@ const Portfolio: FC = (): ReactElement => {
     },
     {
       imgSrc: "images/Portfolio/David Heinze Organ Organist.jpg",
-      href: "https://avidheinze.com",
+      href: "https://davidsgiheinze.com",
       buttonText: "David Heinze, Organist",
       alt: "David Heinze, Organist",
     },
