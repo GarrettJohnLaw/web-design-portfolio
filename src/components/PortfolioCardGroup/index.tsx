@@ -1,29 +1,26 @@
 import { ReactElement } from "react";
 import PortfolioCard, { PortfolioCardProps } from "../PortfolioCard";
-import Row from "react-bootstrap/Row";
+import "./index.css"; // Import CSS for masonry layout
 
 export interface PortfolioCardGroupProps {
   portfolioItems: PortfolioCardProps[];
 }
 
-const Home = ({ portfolioItems }: PortfolioCardGroupProps): ReactElement => {
-  const portfolioCardGroup = portfolioItems.map((portfolioCard, index) => {
-    return (
-      <PortfolioCard
-        key={index}
-        imgSrc={portfolioCard.imgSrc}
-        href={portfolioCard.href}
-        buttonText={portfolioCard.buttonText}
-        alt={portfolioCard.alt}
-      ></PortfolioCard>
-    );
-  });
+const PortfolioCardGroup = ({ portfolioItems }: PortfolioCardGroupProps): ReactElement => {
   return (
-    <div>
-      <Row xs={1} md={2} lg={3}>
-        {portfolioCardGroup}
-      </Row>
+    <div className="portfolio-wall">
+      {portfolioItems.map((portfolioCard, index) => (
+        <div key={index} className="portfolio-item">
+          <PortfolioCard
+            imgSrc={portfolioCard.imgSrc}
+            href={portfolioCard.href}
+            buttonText={portfolioCard.buttonText}
+            alt={portfolioCard.alt}
+          />
+        </div>
+      ))}
     </div>
   );
 };
-export default Home;
+
+export default PortfolioCardGroup;

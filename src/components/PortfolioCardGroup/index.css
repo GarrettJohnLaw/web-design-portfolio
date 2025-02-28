@@ -1,0 +1,29 @@
+/* Portfolio Wall - Masonry Layout */
+.portfolio-wall {
+  column-count: 1; /* Start with one column on mobile */
+  column-gap: 15px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Responsive - Increase to 2 columns on medium screens */
+@media (min-width: 600px) {
+  .portfolio-wall {
+    column-count: 2;
+  }
+}
+
+/* Responsive - Maximum 3 columns on large screens */
+@media (min-width: 900px) {
+  .portfolio-wall {
+    column-count: 3;
+  }
+}
+
+/* Each item in the masonry layout */
+.portfolio-item {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 15px; /* Space between items */
+  break-inside: avoid; /* Prevents gaps by keeping items together */
+}
