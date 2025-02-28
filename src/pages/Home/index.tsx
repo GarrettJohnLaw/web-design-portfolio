@@ -14,11 +14,15 @@ const Home: FC = (): ReactElement => {
             </div>
           </div>
           <div className="col-12 col-md-5">
-            <h1 className="display-5">Empowering Businesses Through Innovative Software Solutions</h1>
+            <h1 className="display-5">Crafting Scalable & High-Performance Software Solutions</h1>
             <p className="large my-4">
-              I'm Garrett, a passionate software engineer dedicated to building robust, scalable, and user-centric
-              software solutions. With 2+ years of experience in the industry, I thrive on turning complex ideas into
-              elegant, efficient code.
+              I'm Garrett, a backend software engineer specializing in scalable architectures, API development, and
+              cloud-native solutions. With 3+ years of experience, I engineer high-performance backend systems that
+              drive PropTech, SaaS platforms, and enterprise automation.{" "}
+            </p>
+            <p>
+              ✅ Backend Development<br></br>✅ Frontend Development<br></br>✅ Cloud & DevOps<br></br>✅ Scalable
+              Architecture
             </p>
             <Nav.Link as={Link} to="/about" className="btn btn-secondary text-white">
               Learn More

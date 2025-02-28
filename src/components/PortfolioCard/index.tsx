@@ -1,6 +1,7 @@
 import { ReactElement } from "react";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
+import "./index.css"; // Custom styling for clean UI
 
 export interface PortfolioCardProps {
   imgSrc: string;
@@ -9,16 +10,17 @@ export interface PortfolioCardProps {
   alt: string;
 }
 
-const Home = ({ imgSrc, href, buttonText, alt }: PortfolioCardProps): ReactElement => {
+const PortfolioCard = ({ imgSrc, href, buttonText, alt }: PortfolioCardProps): ReactElement => {
   return (
-    <div className="my-3 d-flex flex-column">
-      <a href={imgSrc} target="_blank">
-        <Image className="w-100" src={imgSrc} alt={alt} />
+    <div className="portfolio-card">
+      <a href={href} target="_blank" rel="noopener noreferrer">
+        <Image className="portfolio-img" src={imgSrc} alt={alt} />
       </a>
-      <Button href={href} target="_blank">
+      <Button className="portfolio-button" href={href} target="_blank" rel="noopener noreferrer">
         {buttonText}
       </Button>
     </div>
   );
 };
-export default Home;
+
+export default PortfolioCard;

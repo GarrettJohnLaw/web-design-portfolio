@@ -33,7 +33,7 @@ function NavbarElement() {
             </Nav.Link>
             <Nav.Link
               as={Link}
-              to="https://design.garrettjohnlaw.com/portfolio"
+              to="/portfolio"
               className={`d-flex align-items-center justify-content-center text-white ${
                 location.pathname === "portfolio" ? "active" : ""
               }`}
