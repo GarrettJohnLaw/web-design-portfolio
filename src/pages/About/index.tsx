@@ -64,7 +64,7 @@ const About: FC = (): ReactElement => {
             backend services.
           </p>
           <p className="mb-3">Explore my latest work here:</p>
-          <a href="https://garrettjohnlawdesign.com/portfolio" className="btn btn-lg btn-secondary">
+          <a href="/portfolio" className="btn btn-lg btn-secondary">
             View Portfolio
           </a>
         </section>
